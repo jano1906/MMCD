@@ -32,7 +32,7 @@ if __name__ == "__main__":
     )
 
     trainer = pl.Trainer(
-        max_epochs=args.max_epochs,
+        max_epochs=args.n_max_epochs,
         gpus=args.gpus,
         logger=tb_logger,
         callbacks=[checkpoint_callback]
