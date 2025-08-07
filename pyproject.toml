@@ -12,9 +12,6 @@ dependencies = [
     "pytorch-lightning==1.9.2",
     "pytorch-metric-learning==2.1.0",
     "tensorboard>=2.20.0",
-    "torch==1.12.0",
-    "torch-cluster>=1.6.3",
+    "torch==2.7.0",
     "torch-geometric==2.0.1",
-    "torch-scatter>=2.1.2",
-    "torch-sparse>=0.6.18",
 ]
